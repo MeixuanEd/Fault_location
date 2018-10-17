@@ -4,6 +4,7 @@ Code accompanying the paper ["Real-time Fault Localization in Power Grids With C
 
 ## Prerequisites
 The proposed method is implemented through Jupyter Notebook. The required packages include:
+- Jupyter Notebook
 - Python 3
 - Numpy
 - Tensorflow 1.11
