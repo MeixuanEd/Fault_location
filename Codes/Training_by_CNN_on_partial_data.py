@@ -1,11 +1,3 @@
-
-# coding: utf-8
-
-#  
-
-# In[1]:
-
-
 import time 
 import pandas as pd
 import numpy as np
@@ -393,10 +385,6 @@ total_loss.append(loss)
 total_acc.append(100*(1-total_test_true))
 print (total_acc) 
 show_graph(tf.get_default_graph().as_graph_def())  
-
-
-# In[ ]:
-
 
 
 
