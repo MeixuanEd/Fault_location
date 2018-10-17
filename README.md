@@ -65,5 +65,11 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 		"best_model_random_12" and "best_model_topology12" respectively.	
 3, 'Figures_codes': Some performance comparison figures.
 
-Feel free to apply our codes and cite our paper as follows:
+
+## Reference
+
+Feel free to apply our methods, run the codes, and please cite our paper as follows:
+
+Wenting Li, Deepjyoti Deka, Michael Chertkov, Meng Wang. **"Real-time Fault Localization in Power Grids With Convolutional Neural Networks"** 
+ 
  
