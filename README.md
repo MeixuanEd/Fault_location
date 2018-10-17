@@ -14,11 +14,11 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 
 ## Visualization of the 4-layer CNN structure
 
-<center><img src="img/CNN.png" width="600" height="400" /></center> 
+<center><img src="img/CNN.png" /></center> 
 
 ## Simulation Platform
 
-<center><img src="img/System.png" width="600" height="400" /></center>
+<center><img src="img/System.png" /></center>
 
 ## Performance comparison of different methods when 100% obervability
 
