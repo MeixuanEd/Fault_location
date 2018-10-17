@@ -10,7 +10,11 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 - Tensorflow 1.11
 
 ## Getting started
-
+1) If you have Jupyter Notebook, you can directly run the codes of "ipynb" files;
+2) If you only have python, you can run the "py" files in the command line, for example:
+```bash
+    python  Training_by_CNN_on_partial_data.py
+```
  
 
 ## Visualization of the 4-layer CNN structure
