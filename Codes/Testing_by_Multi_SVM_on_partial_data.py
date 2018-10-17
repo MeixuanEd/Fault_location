@@ -1,11 +1,4 @@
 
-# coding: utf-8
-
-# #  This is the results when 30% buses are measured using MSVM
-
-# In[2]:
-
-
 import numpy as np
 import tensorflow as tf
 from sklearn import datasets
@@ -91,10 +84,6 @@ def main():
     
 if __name__ == '__main__':
     main()
-
-
-# In[ ]:
-
 
 
 
