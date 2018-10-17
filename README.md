@@ -1,4 +1,4 @@
-Real-time Fault Localization in Power Grids With Convolutional Neural Networks (CNN)
+  
 ==============================================================================
 Code accompanying the paper ["Real-time Fault Localization in Power Grids With Convolutional Neural Networks"](https://arxiv.org/abs/1810.05247)
 
