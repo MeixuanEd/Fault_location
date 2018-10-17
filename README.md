@@ -64,6 +64,7 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 1, 'Datasets': saves the training and testing datasets;
 
 2, 'Codes': include the codes by python 3 implemented on Jupyter Notebook, and the details are summarized as follows:
+
 	1, "Training_by_CNN_on_partial_data": is the training model with complete or partial measured buses together with the 
 		topology of our 4-layer CNN visualized through tensorboard;
 		
