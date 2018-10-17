@@ -1,5 +1,43 @@
-# Fault_location
-What we have achieved:
+Real-time Fault Localization in Power Grids With Convolutional Neural Networks (CNN)
+==============================================================================
+Code accompanying the paper ["Real-time Fault Localization in Power Grids With Convolutional Neural Networks"](https://arxiv.org/abs/1810.05247)
+
+## Prerequisites
+The proposed method is implemented through Jupyter Notebook. The required packages include:
+- Python 3
+- Numpy
+- Tensorflow 1.11
+
+## Getting started
+
+ 
+
+## Visualization of the 4-layer CNN structure
+
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+
+## Simulation Platform
+
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+
+## Performance comparison of different methods when 100% obervability
+
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+
+## Performance comparison of different methods when 15%~30% obervability
+
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+
+## Neighborhood Property when partial obervability
+
+## The proposed algorithm to select meausured buses
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+
+## Robustness to noise
+<center><img src="img/kate_arch.png" width="600" height="400" /></center>
+
+## What we have achieved:
 1, Define the feature vector based on the sparse fault current;
 2, Build a CNN of 4 layers to locate the fault by classifying the faulted line;
 3, The performance on four types of line faults with different fault impedances are tested;
@@ -8,7 +46,7 @@ What we have achieved:
 5, An algorithm of selecting the measured buses is proposed and compared with other topology based method;
 6, The location performance under noisy condition is also tested.
 
-Introduction of the files included:
+## Introduction of the files included:
 1, 'Datasets': saves the training and testing datasets;
 2, 'Codes': include the codes by python 3 implemented on Jupyter Notebook, and the details are summarized as follows:
 	1, "Training_by_CNN_on_partial_data": is the training model with complete or partial measured buses together with the 
