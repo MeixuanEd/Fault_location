@@ -25,7 +25,7 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 
 <center><img src="img/System.png" /></center>
 
-## Performance comparison of different methods when 100% obervability
+## Performance comparison of different methods (Multiclass support vector machine (MSVM), Neural Network (NN), and CNN) when 100% obervability 
 
 <center><img src="img/Compare_full_data.png"/></center>
 
@@ -33,7 +33,7 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 
 <center><img src="img/Compare_partial_data.png"/></center>
 
-## Neighborhood Property when partial obervability
+## Neighborhood property when partial obervability
 
 <center><img src="img/neighbor.png"/></center>
 
