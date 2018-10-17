@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[3]:
-
-
 import time
 start_time = time.time()
 import pandas as pd
@@ -156,10 +151,5 @@ def main():
     print ('Mean acc is {:.2f}'.format(100*np.mean(accuracy))) 
 if __name__ == '__main__':
     main()    
-
-
-# In[ ]:
-
-
 
 
