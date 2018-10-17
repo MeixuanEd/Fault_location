@@ -1,11 +1,4 @@
 
-# coding: utf-8
-
-#  
-
-# In[3]:
-
-
 import time
 start_time = time.time()
 import pandas as pd
@@ -298,10 +291,3 @@ def main():
 if __name__ == '__main__':
     main()
  
-
-
-# In[ ]:
-
-
-
-
