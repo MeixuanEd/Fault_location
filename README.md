@@ -22,24 +22,24 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 
 ## Performance comparison of different methods when 100% obervability
 
-<center><img src="img/Compare_full_data.png" width="600" height="400" /></center>
+<center><img src="img/Compare_full_data.png"/></center>
 
 ## Performance comparison of different methods when 15%~30% obervability
 
-<center><img src="img/Compare_partial_data.png" width="600" height="400" /></center>
+<center><img src="img/Compare_partial_data.png"/></center>
 
 ## Neighborhood Property when partial obervability
 
-<center><img src="img/neighbor.png" width="600" height="400" /></center>
+<center><img src="img/neighbor.png"/></center>
 
 ## The proposed algorithm to select meausured buses
 
-<center><img src="img/alg.png" width="600" height="400" /></center>
+<center><img src="img/alg.png"/></center>
 
-<center><img src="img/alg_cmp.png" width="600" height="400" /></center>
+<center><img src="img/alg_cmp.png"/></center>
 
 ## Robustness to noise
-<center><img src="img/noise.png" width="600" height="400" /></center>
+<center><img src="img/noise.png" /></center>
 
 ## What we have achieved:
 1, Define the feature vector based on the sparse fault current;
