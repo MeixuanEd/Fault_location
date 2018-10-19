@@ -1,1 +1,24 @@
 
+## Instructions of running the codes:
+1, The title illustrate the function of the codes (whether training or testing, which kind of classifier used like CNN, or NN or MSVM);
+
+2, For the 'Training_*' codes, you can train the model based on different measured bus. The notation of the measured bus is in vector "w". 
+   You can also select the buses according to the degree, i.e., by setting "thres_degree", the buses with larger degree will be selected;
+   
+3, For the 'Testing_*' codes, you can choose the fault types in the 'main()' function, 
+   for example, setting the "fault_type =1" by # 0--Tp;1--LG; 2--LLG; 3--LL 
+   
+4, You can also select different saved models by choose the name "model_name",
+  for example, "model_name ='./best_model_20_bus/Locate_u_feature4' " means to select the best model if only 20 buses are measured. 
+  (Notice that the saved model called 'Locate_u_feature4' is in the corresponding folder "./best_model_20_bus", and you can find other
+  saved models from 11 buses to 20 buses, but remember if you choose the model measured on different buses, please also change the bus
+  notations "w" to the corresponding number of buses. 
+  The 20 best buses selected is "w= [0,  8, 15, 29, 35, 22, 41 , 60, 50, 56, 5,36,57,44, 25,9, 32,3,40,7]"
+  
+5, If the fault type is selcted, then the output is the locatio accuracy of this kinds of faults with 4 different fault impedance and 
+  their mean: 
+  like [[0.98591548]
+       [0.95774651]
+       [0.98591548]
+       [0.91549295]]
+        Mean is96.13
