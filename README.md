@@ -86,6 +86,5 @@ The proposed method is implemented through Jupyter Notebook. The required packag
 
 Feel free to apply our methods, run the codes, and please cite our paper as follows:
 
-Wenting Li, Deepjyoti Deka, Michael Chertkov, Meng Wang. **"Real-time Fault Localization in Power Grids With Convolutional Neural Networks"** 
- 
+Li, Wenting, Deepjyoti Deka, Michael Chertkov, Meng Wang. **"Real-time Faulted Line Localization and PMU Placement in Power Systems through Convolutional Neural Networks."** IEEE Transactions on Power Systems (2019). 
  
